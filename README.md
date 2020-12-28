@@ -31,5 +31,5 @@ mvn install
 
 ### Start
 ```
-java -jar /target/eisetasks-1.0-SNAPSHOT.jar
+java -jar ./target/eisetasks-1.0-SNAPSHOT.jar
 ```

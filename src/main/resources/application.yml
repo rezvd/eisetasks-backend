@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  flyway:
+    baseline-on-migrate: true
+  datasource:
+    tasks:
+      jdbc-url: jdbc:postgresql://localhost:5432/eisetasks
+      username: defaultuser
+      password: userpassword
+      driver-class-name: org.postgresql.Driver
+
+jwt:
+  issuer: 'rezv.daria@gmail.com'
+  signingKey: 'TALSPOC120NXJSAPQKE1D77'
+  aTokenDuration: 30
+
+pagination:
+  min-page-size: 10
+  max-page-size: 50
+  default-page-size: 25
+  default-page: 1
+  default-order: desc
+
+logging:
+  level:
+    root: INFO
